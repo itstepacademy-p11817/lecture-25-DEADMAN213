@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include <string.h>
 #include <inttypes.h>
 #include <ctype.h>
-#include "MyStringLib.h"
 
 uint32_t mystrlen(const char* str) {
 	uint32_t len = 0;
